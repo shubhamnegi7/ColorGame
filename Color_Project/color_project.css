@@ -1,0 +1,73 @@
+body{
+	background-color: #232323;
+	margin: 0;
+	font-family: "Playfair Display";
+}
+
+.square{
+
+	background-color: purple;
+	width: 30%;
+	float: left;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	border-radius: 15%;
+	transition: background 2.0s;
+	
+}
+
+#container{
+	margin: 20px auto;
+
+	max-width: 600px;
+}
+
+h1{
+	text-align: center;
+	line-height: 1.1;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+	background: steelblue;
+	margin: 0;
+	font-weight: 0;
+	text-transform: uppercase;
+}
+
+#color_display{
+	font-size: 200%;
+}
+
+
+#strip{
+		background-color: white;
+		text-align: center;
+		color: black;
+}
+
+.selected{
+	color: white;
+	background: steelblue;
+
+}
+button{
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	padding: 5px;
+	height: 100%;
+	color: steelblue;
+	font-weight: 700px;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 2.0s;
+	outline: none;  
+}
+#messagedisplay{
+	width: 20%;
+	display: inline-block;
+}
+button:hover{
+	color: white;
+	background: steelblue;
+}
